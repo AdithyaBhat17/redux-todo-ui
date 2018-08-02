@@ -1,12 +1,12 @@
 @font-face{
     font-family: "San Fransisco";
     font-weight: bold;
-    src:url('fonts/SanFranciscoDisplay-Bold.otf');
+    src:url('https://cdn.rawgit.com/AdithyaBhat17/redux-todo-ui/eb952dc1/fonts/SanFranciscoDisplay-Bold.otf');
 }
 @font-face{
     font-family: "San Fransisco";
     font-weight: normal;
-    src:url('fonts/SanFranciscoDisplay-Regular.otf');
+    src:url('https://cdn.rawgit.com/AdithyaBhat17/redux-todo-ui/eb952dc1/fonts/SanFranciscoDisplay-Regular.otf');
 }
 
 html,body{
