@@ -1,0 +1,71 @@
+@font-face{
+    font-family: "San Fransisco";
+    font-weight: bold;
+    src:url('fonts/SanFranciscoDisplay-Bold.otf');
+}
+@font-face{
+    font-family: "San Fransisco";
+    font-weight: normal;
+    src:url('fonts/SanFranciscoDisplay-Regular.otf');
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    font-family: "San Fransisco";
+}
+
+h3{
+    font-weight: bold;
+}
+
+.thumbnail{
+    margin: 30vh auto;
+    text-align: center;
+    padding-bottom: 25px;
+    border: 0 !important;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:768px){
+    .thumbnail{
+        margin:15px auto
+    }
+}
+
+input{
+    border: 0.2px solid rgba(0,0,0,0.2) !important;
+    box-shadow: 2px 2px 6px 0 rgba(46,61,73,.2);
+    padding:5px !important;
+    width: 60%
+}
+
+button{
+    background-color: #02b3e4;
+    border:0;
+    box-shadow: 4px 6px 6px rgba(0,0,0,0.2);
+    padding: 5px 8px;
+    border-radius: 5px;
+    color:#fff; 
+    transition: box-shadow .2s ease-in-out;
+    outline: none !important
+}
+
+button:hover,button:focus,button:active{
+    box-shadow: 0 0 0;
+}
+
+ul{
+    margin-top:15px;
+    font-size: 16px;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+}
+
+li button{
+    margin-left: 15px
+}
